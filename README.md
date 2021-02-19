@@ -1,4 +1,4 @@
-# Telco Customer Churn
+# Telco Customer Churn Heroku Application
 
 ## Focused customer retention programs
 
@@ -20,32 +20,7 @@ The data set includes information about:
 
 - Demographic info about customers – gender, age range, and if they have partners and dependents
 
-## Feature Selection
-Please look at the file notebooks/eda.ipynb to view exploratory data analysis, data processing and data visualization.
-
-## Directories 
-
- - input --> Having the data CSV 
-
- - notebooks --> Having Jupyter Notebook
-
- - src --> Having Python Scripts
-
- - models --> Having saved models
-
 ## Result
-
-### Using LabelEncoder and RandomForest
-
-Fold --> 0 | AUC Score --> 0.837
-
-Fold --> 1 | AUC Score --> 0.836
-
-Fold --> 2 | AUC Score --> 0.837
-
-Fold --> 3 | AUC Score --> 0.844
-
-Fold --> 4 | AUC Score --> 0.874
 
 ### Using OneHotEncoder and RandomForest
 
