@@ -38,7 +38,7 @@ from sklearn.pipeline import make_pipeline
 def model_prediction(input_value):
 
 
-    pickle_in = open('../models/of_4.pkl','rb')
+    pickle_in = open('of_4.pkl','rb')
     model = pickle.load(pickle_in)
 
     input_value = list(input_value)
@@ -74,6 +74,3 @@ def model_prediction(input_value):
     return y_pred
 
 
-model_prediction([0, 72, 'Yes', 'No', 'No internet service', 'No internet service',
-        'No internet service', 'No internet service', 'Two year', 'No',
-        'Credit card (automatic)', 25.45, 1866.45])
